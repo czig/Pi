@@ -24,4 +24,6 @@ while True:
     if userinput == str(0) :
         print('Please type a number >= 1')
         continue
+    if userinput == '' :
+        continue
     redone(int(userinput))
